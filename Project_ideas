@@ -1,0 +1,12 @@
+1) Using Yelp data to estimate economic features:  Census and other public datasets are time consuming to collect at there are often large time gaps between measurements.  These datasets could be supplemented with online review databases, which operate mush more quickly.  I would use the Yelp dataset to identify features that can be used to predict economic features of neighborhoods found in census data (likely the County Business Patterns dataset).  Analyses could incorporate features like the number and type of businesses in a area and more advanced techniques like features extracted from the reviews themselves using natural language processing.
+Datasets:
+https://www.yelp.com/dataset/
+https://www.census.gov/programs-surveys/cbp/data/datasets.html
+
+2)  Flagging comments for breach of guidelines:  It can be difficult for moderators of online communities to efficiently identify comments that may violate community guidelines about obscenity or threats directed at other users.  This project would use natural language processing to classify comments with some type of toxic language using the Wikipedia talk labels dataset, which includes annotated comments identifying threatening or other types of toxic contributions.
+Datasets:
+https://figshare.com/articles/Wikipedia_Talk_Labels_Toxicity/4563973
+
+3)  Differentiating between ships and icebergs from space:  This is based on an old Kaggle dataset and would likely use neural networks to classify the images.
+Datasets:
+https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data
